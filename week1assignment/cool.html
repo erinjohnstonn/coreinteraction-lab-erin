@@ -1,0 +1,64 @@
+<doctype html>
+
+<head>
+	<title> Demo Page </title>
+	<style>
+	div{
+color: #A4A4A4;
+background-color: green;
+font-family: Univers, Helvetica, Arial;
+font-size: 40px;
+line-height: 60px;
+margin: 20px;
+padding: 50px; 
+
+}
+.first-div{
+	background-color: #0B0B61;
+}
+	
+.first-div:hover{
+	background-color: purple;
+}
+.second-div{
+	background-color: #013ADF;
+}
+.third-div{
+	background-color: #819FF7;
+}
+.first-div:active{
+	padding:100px; 
+}
+
+.click{
+	background-color: #088A29;
+	color: #0404B4;
+	padding:100px; 
+	font-size: 60px;
+}
+	</style>
+</head>
+	<body>
+	<div class= "first-div">
+fanning out its tail
+
+</div>
+<div class= "second-div">
+
+in the spring breeze,
+
+</div>
+
+<div class= "third-div">
+see a peacock!
+</div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script>
+    $('.third-div').click(function () {
+      $(this).toggleClass('click');
+    });
+  </script>
+
+</body>
+	
