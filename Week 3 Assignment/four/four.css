@@ -1,0 +1,89 @@
+div {
+  background: #4b7fe8;
+  margin: 10px;
+}
+.firstsquare {
+  width: 200px;
+  height: 350px;
+  background-color: purple;
+   position: absolute;
+    top: 20px;
+    left: 30px;
+
+ }
+  .secondsquare {
+  width: 200px;
+  height: 350px;
+  background-color: purple; 
+  position: absolute;
+    top: 390px;
+    left: 30px;
+    }
+    
+    .thirdsquare {
+  width: 200px;
+  height: 330px;
+  background-color: green; 
+  position: absolute;
+    top: 30px;
+    left: 100px;
+    }
+   
+    .rectangle {
+  width: 180px;
+  height: 100px;
+  background-color: yellow; 
+  position: absolute;
+    top: 400px;
+    left: 40px;
+    }
+    .fs {
+  width: 35px;
+  height: 35px;
+  background-color: red; 
+  position: absolute;
+    top: 405px;
+    left: 45px;
+    }
+     .ss {
+  width: 35px;
+  height: 35px;
+  background-color: red; 
+  position: absolute;
+    top: 400px;
+    left: 86px;
+    }
+    .ts {
+  width: 35px;
+  height: 35px;
+  background-color: red; 
+  position: absolute;
+    top: 405px;
+    left: 127px;
+    }
+    .fours {
+  width: 35px;
+  height: 35px;
+  background-color: red; 
+  position: absolute;
+    top: 445px;
+    left: 45px;
+    }
+    .fives {
+  width: 35px;
+  height: 35px;
+  background-color: red; 
+  position: absolute;
+    top: 445px;
+    left: 86px;
+    }
+    .sixs {
+  width: 35px;
+  height: 35px;
+  background-color: red; 
+  position: absolute;
+    top: 445px;
+    left: 127px;
+    }
+
+

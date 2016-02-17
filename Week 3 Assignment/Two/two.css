@@ -1,0 +1,74 @@
+div {
+  background: #4b7fe8;
+  margin: 10px;
+}
+.firstsquare {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+   position: absolute;
+    top: 1px;
+    left: 1px;
+
+ }
+ .secondsquare {
+  width: 200px;
+  height: 200px;
+  background-color: red; 
+  position: absolute;
+    top: 1px;
+    left: 250px;
+
+}
+ .thirdsquare {
+  width: 200px;
+  height: 200px;
+  background-color: red; 
+  position: absolute;
+    top: 1px;
+    left: 500px;
+ }
+ .fsquare {
+  width: 200px;
+  height: 200px;
+  background-color: red; 
+  position: absolute;
+    top: 250px;
+    left: 1;
+ }
+ .firstcircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+    top: 85px;
+    left: 10px;
+
+}
+.secondcircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+    top: 140px;
+    left: 390px;
+
+}
+.thirdcircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+    top: 70px;
+    left: 575px;
+
+}
+.fcircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+    top: 260px;
+    left: 150px;
+
+}
