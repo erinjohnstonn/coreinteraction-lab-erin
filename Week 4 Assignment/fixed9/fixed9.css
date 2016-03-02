@@ -1,0 +1,14 @@
+div {
+  background: #4b7fe8;
+  margin: 20px;
+}
+.firstsquare {
+  width: 1000px;
+  height: 550px;
+  background-color: orange;
+   position: fixed;
+    right: 30px;
+    bottom: 40px;
+
+ }
+

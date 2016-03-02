@@ -1,0 +1,21 @@
+div {
+  background: #4b7fe8;
+  margin: 10px;
+}
+.firstsquare {
+  width: 200px;
+  height: 400px;
+  background-color: blue;
+   position: absolute;
+    top: 1px;
+    left: 1px;
+
+ }
+  .secondsquare {
+  width: 200px;
+  height: 400px;
+  background-color: orange; 
+  position: absolute;
+    top: 75px;
+    left: 75px;
+    }
