@@ -1,13 +1,43 @@
+body {
+  margin: 0;
+}
+
+
 .title{
 	text-align: center;
-	font-size: 15pt;
+	font-size: 50pt;
+	margin-top:50px;
+	margin-bottom:50px;
+	margin-right:50px;
+	margin-left:50px;
+}
+
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+
+.flex-container div {
+  background: yellow;
+  border: 2px solid black;
+  text-align: center;
+  width: 30px;
+  padding-top: 10px;
+  height: 30px;
+  flex-grow: 100;
+  justify-content: center;
 }
 
 .outer-container{
 	position: relative;
-	padding: 50px;
-	background-color: orange;
-	height: 100vh;
+	padding: 100px;
+	background-color: ;
+	height: 100px;
 }
 
 .outer-container{
@@ -19,6 +49,14 @@
 
 .column{
 	width: 100%;
-	background:green;
 	margin: 50px;
 }
+
+img {
+width: 100px;
+	height: 75px;	
+  
+    
+
+
+
