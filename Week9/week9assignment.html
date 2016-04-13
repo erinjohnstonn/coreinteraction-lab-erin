@@ -1,0 +1,130 @@
+<!doctype html>
+<head>
+  <title>week9</title>
+  <style>
+	div{
+		color: #A4A4A4;
+		font-family: Univers, Helvetica, Arial;
+		font-size: 40px;
+		line-height: 60px;
+		margin: 0px;
+		padding: 30px; 
+		background-color: #0B0B61;
+
+		}
+		.first-div{
+			background-color: #0B0B61;
+			margin: 0px;
+		}
+			
+		.first-div:hover{
+			background-color: purple;
+		}
+		.second-div{
+			background-color: #013ADF;
+			margin: 0px;
+		}
+		.third-div{
+			background-color: #819FF7;
+			margin: 0px;
+		}
+		.first-div:active{
+			padding:100px; 
+		}
+
+		.4-div{
+		background-color: #0B0B61;
+
+		}
+		.5-div{
+			 width: 50px;
+ 			 height: 50px;
+ 			 border-radius: 50%;
+ 			 background-color: blue;
+ 			 position: absolute;
+  				 top: 85px;
+   				 left: 10px;
+		}
+
+		.click{
+			background-image: url("http://yourshot.nationalgeographic.com/u/ss/fQYSUbVfts-T7pS2VP2wnKyN8wxywmXtY0-Fwsgxpi6lcreDCG8F4sYe6QapAKOXbKW8r8v7pRS5vVMg8qqv/");
+			background-size: 1500px;
+			color: white;
+			padding:200px; 
+			font-size: 60px;
+
+		}
+
+
+
+
+	</style>
+</head>
+
+	<body>
+		<div class= "4-div">
+<button onclick="clearInterval(myVar)">About</button>
+		</div>
+
+		<div class= "first-div">
+		<p>fanning out its tail<p>
+
+		</div>
+		<div class= "second-div">
+
+		<p>in the spring breeze,<p>
+
+		</div>
+
+		<div class= "third-div">
+		<p> see a peacock!<p>
+		</div>
+
+
+		<div class= "5-div">
+<button onclick="clearInterval(myVar)">Click</button>
+		</div>
+
+		
+
+
+
+	  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	  <script>
+	    $('.5-div').click(function () {
+	      $('.third-div').toggleClass('click');
+	    });
+	  </script>
+
+	   <script>
+	    $('.4-div').click(function () {
+	      alert ("Peacocks are large, colorful pheasants (typically blue and green) known for their iridescent tails.These tail feathers, or coverts, spread out in a distinctive train that is more than 60 percent of the bird's total body length and boast colorful eye markings of blue, gold, red, and other hues. The large train is used in mating rituals and courtship displays. It can be arched into a magnificent fan that reaches across the bird's back and touches the ground on either side.");
+	    });
+	  </script>
+
+ 	  <script>
+	     $(function() {
+              $('.4-div').click(function() {
+                    $('4-div').css('backgroundImage', 'url(http://wallpapercave.com/wp/zrmeril.jpg)');
+              });
+        }):
+  		</script>
+	
+<p>Time</p>
+
+<p id="demo"></p>
+
+<button onclick="clearInterval(myVar)">Stop time</button>
+
+<script>
+var myVar = setInterval(myTimer ,1000);
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+
+
+	</body>
+

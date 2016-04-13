@@ -18,6 +18,7 @@ div {
   position: absolute;
     top: 1px;
     left: 250px;
+    outline: #00FF00 dotted thick;
 
 }
  .thirdsquare {
