@@ -1,0 +1,16 @@
+function findLargest(argArray) {
+  var largest = 0;
+  
+  for (var i = 0; i < argArray.length; ++i) {
+    var item = argArray[i];
+    if (item > largest) {
+      largest = item;
+    }
+  }
+  
+  return largest;
+}
+
+var testArray = [200, 13, 87];
+var result = findLargest(testArray);
+console.log(result); // Should print 87

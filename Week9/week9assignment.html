@@ -3,7 +3,7 @@
   <title>week9</title>
   <style>
 	div{
-		color: #A4A4A4;
+		color: #585858;
 		font-family: Univers, Helvetica, Arial;
 		font-size: 40px;
 		line-height: 60px;
@@ -110,19 +110,7 @@
         }):
   		</script>
 	
-<p>Time</p>
 
-<p id="demo"></p>
-
-<button onclick="clearInterval(myVar)">Stop time</button>
-
-<script>
-var myVar = setInterval(myTimer ,1000);
-function myTimer() {
-    var d = new Date();
-    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
-}
-</script>
 
 <button onclick="stopColor()">Stop Toggling</button>
 
@@ -138,6 +126,16 @@ function stopColor() {
   clearInterval(myVar);
 }
 </script>
+
+<button onclick="displayDate()">The time is?</button>
+
+<script>
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+<p id="demo"></p>
 
 
 

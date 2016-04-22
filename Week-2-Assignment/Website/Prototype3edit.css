@@ -1,0 +1,122 @@
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+.amiri{font-family: 'Amiri', serif;}
+}
+
+body {
+color: black;   
+background-color: white;
+font-family: 'amiri';
+font-size: 1500px;
+margin:0px;
+}
+
+        .header {
+        text-align: left; 
+        padding: 250px;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/16/Kurdish_women_from_P%C4%81lang%C4%81n_village_(13361081043).jpg");
+         background-size: 5000px;
+        color: white;
+        font-size: 55px;
+
+        }
+
+
+        p {
+    
+    text-align: right; 
+    margin-top: .65em;
+     margin-bottom: .65em;
+     
+
+}
+
+
+        .p1 {
+        text-align: left; 
+        font-size: 20px;
+        padding: 350px;
+        background-color: red;
+        color: transparent;
+         font-size: 55px;
+
+        }
+        
+
+        .paragraph2 {
+        text-align: center; 
+        font-size: 20px;
+        padding: 350px;
+        background-color: white;
+        color: transparent;
+         font-size: 55px;
+
+        }
+
+        .p3 {
+        text-align: center; 
+        font-size: 20px;
+        padding: 350px;
+        background-color: black;
+        color: transparent;
+
+        }
+
+        .paragraph3 {
+        text-align: left; 
+        padding: 300px;
+        background-image: url("http://media.themalaysianinsider.com/assets/uploads/articles/ypg-kurds-reuters-111114.jpg.JPG");
+        background-size: 5000px;
+        color: white;
+        font-size: 55px;
+
+
+        }
+
+        .paragraph4 {
+
+        text-align: left; 
+        padding: 300px;
+        background-image: url("http://deconstructedglobe.com/wordpress/wp-content/uploads/2015/11/kurdish-women-fighters.jpg");
+        background-size: 5000px;
+        color: black;
+        font-size: 55px;
+
+
+
+        }
+
+        .paragraph5 {
+        text-align: left; 
+        padding: 300px;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c9/Kurdistan_Sulaymaniyah_province_063.JPG");
+        background-size: 5000px;
+        color: white;
+         font-size: 55px;
+        
+         
+
+        }
+
+        .paragraph6 {
+        text-align: left;  
+        padding: 300px;
+        background-image: url("http://northstarcog.com/wp-content/uploads/2011/01/A-Harrison-005.jpg");
+        background-size: 5000px;
+        color: #0B3B17;
+         font-size: 25px;
+        
+
+        }
+
+        .p1:hover {
+        background-color: #0B610B;
+        
+        }
+
+
+
+
+}
+

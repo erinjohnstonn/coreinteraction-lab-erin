@@ -1,0 +1,27 @@
+function appendSomething(argArray) {
+  argArray.push('something');
+}
+
+// var testArray = [4, 13, 87];
+// appendSomething(testArray);
+// console.log(testArray) // Should log [4, 13, 87, 'something']
+
+// var myObject = {
+//   name: 1,
+//   otherThing: 2
+// };
+
+// var people = [{
+//   name: 'person', 
+//   height: 345
+// }]
+
+
+
+function listProps (argObject) {
+  for (var key in argObject) {
+    console.log(key);
+  }
+}
+
+listProps({ a: 1, b: 2 });

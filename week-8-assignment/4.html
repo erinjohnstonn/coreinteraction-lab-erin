@@ -1,0 +1,12 @@
+function decrementArray(argArray) {
+  for (var i= 0; i < argArray.length; ++i) {
+    argArray[i] = argArray[i] - 1;
+//     argArray[i] -= 1;
+  }
+  
+  return argArray;
+}
+
+var testArray = [4, 13, 87];
+var result = decrementArray(testArray);
+console.log(result) // Should print [3, 12, 86]
